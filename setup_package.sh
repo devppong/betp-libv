@@ -62,7 +62,7 @@ python setup.py sdist bdist_wheel
 
 # Test the package upload to TestPyPI (you'll need to have an account)
 twine check dist/*
-twine upload --repository-url https://test.pypi.org/legacy/ dist/*
+twine upload --repository-url https://test.pypi.org/legacy/ dist/* --verbose
 
 # If everything looks good, you can upload the package to PyPI
 # twine upload dist/*
