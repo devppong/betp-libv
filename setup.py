@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='betp-libv',
-    version='0.1.0',
+    version='0.1.1',
     description='A sample Python package',
     author='Puddl',
     author_email='devppong@gmail.com',
